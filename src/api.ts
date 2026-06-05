@@ -12,7 +12,7 @@ import axios from 'axios';
 // ── Base axios instance ──────────────────────────────────────────────────────
 
 export const api = axios.create({
-  baseURL: 'http://localhost:8000/api/v1',
+  baseURL: 'https://intellicampus-backend-m6uv.onrender.com/api/v1',
   timeout: 15000,
   headers: { 'Content-Type': 'application/json' },
 });
